@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Konkurs Chemiczny</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/gallery.css">
+  <script src="https://kit.fontawesome.com/e7625484e8.js" crossorigin="anonymous"></script>
+	<script src ="js/gallery.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000">
+  <a class="navbar-brand" href="index.html">Konkurs Chemiczny <i class="fas fa-flask"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Aktualności<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="wyniki.html">Wyniki</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="archiwum.html">Archiwum</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="kontakt.html">Kontakt</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="sponsorzy.html">Sponsorzy</a>
+      </li>
+            <li class="nav-item active">
+        <a class="nav-link" href="galeria.html">Galeria</a>
+      </li>
+     <li class="nav-item dropdown">
+     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Linki</a>
+     <div class="dropdown-menu">
+      <a class="dropdown-item" href="https://www.kolo.chemia.polsl.pl/">Studenckie Koło Naukowe Chemików</a>
+      <a class="dropdown-item" href="https://gliwice.eu/">Miasto Gliwice</a>
+      <a class="dropdown-item" href="https://www.polsl.pl/Wydzialy/RCh/Strony/Witamy.aspx">Wydział Chemiczny</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="https://www.polsl.pl/Strony/Witamy.aspx">Politechnika Śląska</a>
+    </div>
+  </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0" id=searchInp>
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id=searchBut>Search</button>
+    </form>
+  </div>
+</nav>
+<main>
+ 
+
+<section id="left">
+<!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+
+  <!--Controls-->
+  <div class="controls-top">
+    <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+    <a class="black-text2" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+  </div>
+  <!--/.Controls-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).jpg"
+            alt="" onmouseover = "upDate(this)" onmouseout = "unDo()">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).jpg"
+            alt="">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).jpg"
+            alt="">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).jpg"
+            alt="" onmouseover = "upDate(this)" onmouseout = "unDo()">
+        </div>
+      </div>
+
+    </div>
+    <!--/.First slide-->
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).jpg"
+            alt="Card image cap" onmouseover = "upDate(this)" onmouseout = "unDo()">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(47).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(26).jpg"
+            alt="Card image cap" onmouseover = "upDate(this)" onmouseout = "unDo()">
+        </div>
+      </div>
+
+    </div>
+    <!--/.Second slide-->
+
+    <!--Third slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).jpg"
+            alt="Card image cap" onmouseover = "upDate(this)" onmouseout = "unDo()">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).jpg"
+            alt="Card image cap" onmouseover = "upDate(this)" onmouseout = "unDo()">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).jpg"
+            alt="Card image cap" onmouseover = "upDate(this)" onmouseout = "unDo()">
+        </div>
+      </div>
+
+    </div>
+    <!--/.Third slide-->
+
+  </div>
+  <!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+</section>
+<section id="left">
+    <div id = "image123">
+    nakieruj na zdjęcie by zobaczyć
+  </div>
+</section>
+  
+
+
+
+
+<section id=right>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/szara.bmp" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/arch.bmp" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/czerwona.bmp" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div>
+  <h1 class="patronat">Patronat Honorowy</h1>
+</div>
+  <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">prof. dr hab. inż. Krzysztof Walczak</h5>
+        <p class="card-text">Dziekan Wydziału Chemicznego Politechniki Śląskiej.</p>
+        <a href="https://www.polsl.pl/Wydzialy/RCh/Strony/Witamy.aspx" class="btn btn-primary">Zobacz</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">dr hab. inż Monika Krasowska prof. PŚ</h5>
+        <p class="card-text">Przewodnicząca Oddziału Gliwickiego Polskiego Towarzystwa Chemicznego.</p>
+        <a href="https://ptchem.gliwice.pl/" class="btn btn-primary">Zobacz</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="org"><h1 class="organizacja">Wsparcie organizacyjne</h1></div>
+<img src="images/koło.jpg" alt="ikona koła chemicznego"  class="img-thumbnail">
+
+
+
+
+
+</section>
+
+</main>
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4 footer-dark">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="images/czerwonaChemia.bmp" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="d-none d-sm-block col-sm-3 col-md-3 col-lg-2">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="images/cnt.jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="d-none d-sm-block col-sm-3 col-md-3 col-lg-2">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="images/gig.bmp" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="d-none d-sm-block col-sm-3 col-md-3 col-lg-2">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="images/czerwona.bmp" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="d-none d-lg-block col-md-2">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="images/arch.bmp" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="d-none d-lg-block col-md-2">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="images/szara.bmp" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a><br>
+    Autorem strony jest mgr. inż. Dawid Janasik<br>
+    <a href="https://www.polsl.pl/Strony/cookies.aspx">Zasady wykorzystywania „ciasteczek” (ang. cookies) w serwisach internetowych Politechniki Śląskiej</a>
+
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>

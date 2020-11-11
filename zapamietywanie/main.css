@@ -1,0 +1,150 @@
+body
+{
+	margin: 0;
+	background-color: white;
+	color: red;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+a:link    { color: red; text-decoration: none; }
+a:visited { color: black; }
+a:active  { color: black; }
+a:hover   { color: blue; }
+
+h1
+{
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+p
+{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+.board
+{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.cardA
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image:  url("img/karta.png");
+	background-size: contain;
+	border: 4px solid rgb(99, 55, 30);
+	border-radius: 4px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+}
+
+.card
+{
+	background-size: contain;
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image:  url("img/karta.png");
+	border: 4px solid red;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all .3s ease-in-out;
+}
+
+.card:hover
+{
+	border: 4px solid #e9b64a;
+	filter: brightness(100%);
+}
+
+.score
+{
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
+
+@media all and (max-width:992px){
+	h1{
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+    .board
+{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.cardA
+{
+		width: 150px;
+	height: 150px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/karta.png");
+	background-image: 
+	border: 4px solid rgb(99, 55, 30);
+	border-radius: 4px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+	background-size: contain;
+}
+
+.card
+{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/karta.png");
+	border: 4px solid red;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all .3s ease-in-out;
+	background-size: contain;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
